@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="../css/common.css" rel="stylesheet" />
+<link href="css/column-overrides.css" rel="stylesheet" />
+<script src="js/jquery-2.2.4.min.js"></script>
+<script src="../js/common.js"></script>
+<title>スマートホームが使いにくい・不安｜見守り・停電・プライバシーで選ぶ自動化</title>
+<meta name="robots" content="noindex,nofollow">
+
+<script src="./column-nav.js" defer></script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@500;700;900&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  body { margin:0; background:oklch(0.98 0.014 85); }
+  a { color:oklch(0.42 0.1 155); text-decoration:none; }
+  a:hover { color:oklch(0.34 0.1 155); text-decoration:underline; }
+  * { box-sizing:border-box; }
+  details > summary { cursor:pointer; list-style:none; }
+  details > summary::-webkit-details-marker { display:none; }
+  details > summary:hover { background:oklch(0.98 0.02 150); }
+  details[open] .faq-chevron { transform:rotate(45deg); }
+  .column-article-body h2 { font-family:'Zen Maru Gothic',sans-serif; font-weight:700; font-size:21px; line-height:1.6; margin:40px 0 16px; }
+  .column-article-body p { font-size:16.5px; line-height:1.95; margin:0 0 16px; }
+  .column-article-body ul,.column-article-body ol { margin:0 0 18px; padding-left:24px; font-size:16px; line-height:1.9; }
+  .column-article-body li { margin-bottom:8px; }
+  .column-article-body blockquote { margin:18px 0; padding:16px 20px; border-left:4px solid oklch(0.7 0.08 155); background:#fff; border-radius:0 12px 12px 0; }
+  .column-article-body blockquote p { margin:0; font-size:15.5px; }
+  .column-article-body table { width:100%; border-collapse:collapse; margin:18px 0 24px; font-size:14px; background:#fff; }
+  .column-article-body th,.column-article-body td { border:1px solid oklch(0.86 0.02 85); padding:10px 12px; text-align:left; vertical-align:top; }
+  .column-article-body th { background:oklch(0.95 0.03 150); }
+  .column-caution { font-size:13.5px; line-height:1.8; color:oklch(0.42 0.04 75); background:oklch(0.96 0.025 70); border-radius:12px; padding:16px 18px; margin:22px 0 34px; }
+  @media (max-width:600px) { .column-article-body table { display:block; overflow-x:auto; white-space:nowrap; } }
+</style>
+
+<meta name="description" content="家の自動化を、使う人の希望、見守り情報、停電・通信断、更新と終了時の手続きから考える。小さく始める選び方を紹介します。">
+<link rel="canonical" href="https://eisuke-orion.github.io/100-year-renovation-navi-preview-c-sharp/legacy/column-30.dc.html">
+<meta property="og:title" content="スマートホームが使いにくい・不安｜見守り・停電・プライバシーで選ぶ自動化">
+<meta property="og:description" content="家の自動化を、使う人の希望、見守り情報、停電・通信断、更新と終了時の手続きから考える。小さく始める選び方を紹介します。">
+<meta property="og:url" content="https://eisuke-orion.github.io/100-year-renovation-navi-preview-c-sharp/legacy/column-30.dc.html">
+<meta property="og:type" content="article">
+<meta property="og:locale" content="ja_JP">
+<meta property="og:image" content="https://eisuke-orion.github.io/100-year-renovation-navi-preview-c-sharp/legacy/uploads/c30-hero.png">
+<meta property="og:image:alt" content="照明の操作をスマートフォンで一緒に確認する夫婦のイメージ">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "スマートホームが使いにくい・不安｜見守り・停電・プライバシーで選ぶ自動化", "description": "家の自動化を、使う人の希望、見守り情報、停電・通信断、更新と終了時の手続きから考える。小さく始める選び方を紹介します。", "inLanguage": "ja", "url": "https://eisuke-orion.github.io/100-year-renovation-navi-preview-c-sharp/legacy/column-30.dc.html", "creativeWorkStatus": "Draft", "dateModified": "2026-09-11", "image": "https://eisuke-orion.github.io/100-year-renovation-navi-preview-c-sharp/legacy/uploads/c30-hero.png", "author": {"@type": "Person", "name": "エイスケ"}}</script>
+<link rel="stylesheet" href="css/client-preview.css">
+<script src="client-preview.js" defer></script>
+</head>
+<body>
+
+
+<header>
+	<div class="inner">
+		<div class="wrap_search">
+			<script async src="https://cse.google.com/cse.js?cx=d0dde822ecfe64816">
+			</script>
+			<div class="gcse-search"></div>
+			<div class="btn_close_search"></div>
+		</div>
+		<div class="nav_open" role="button" tabindex="0" aria-label="メニューを開く" aria-controls="site-global-nav" aria-expanded="false"></div>
+		<div class="box_logo">
+			<a href="https://www.cbl.or.jp/r-navi/">
+				<div class="logo_main">人生100年時代の<br class="only_sp">リフォーム応援ナビサイト</div>
+				<div class="logo_sub">50代からのリフォームを知って探して⾒つける</div>
+			</a>
+		</div>
+		<div class="box_btn">
+			<div class="search_area">
+				<img src="../img/icon_search.svg" alt="">
+			</div>
+			<div class="history_area">
+				<a href="https://www.cbl.or.jp/r-navi/history/"><img src="../img/icon_history.svg" alt=""></a>
+			</div>
+		</div>
+</div>
+	<div class="fix_header">
+		<div class="inner">
+		<div class="wrap_search">
+			<script async src="https://cse.google.com/cse.js?cx=d0dde822ecfe64816">
+			</script>
+			<div class="gcse-search"></div>
+			<div class="btn_close_search"></div>
+		</div>
+		<div class="nav_open" role="button" tabindex="0" aria-label="メニューを開く" aria-controls="site-global-nav" aria-expanded="false"></div>
+		<div class="box_logo">
+			<a href="https://www.cbl.or.jp/r-navi/">
+				<div class="logo_main">人生100年時代の<br class="only_sp">リフォーム応援ナビサイト</div>
+				<div class="logo_sub">50代からのリフォームを知って探して⾒つける</div>
+			</a>
+		</div>
+		<div class="box_btn">
+			<div class="search_area">
+				<img src="../img/icon_search.svg" alt="">
+			</div>
+			<div class="history_area">
+				<a href="https://www.cbl.or.jp/r-navi/history/"><img src="../img/icon_history.svg" alt=""></a>
+			</div>
+		</div>
+</div>
+	</div>
+</header>
+
+<nav id="site-global-nav" class="site-global-nav" aria-label="メインメニュー" aria-hidden="true">
+	<div class="wrap_nav_inner">
+		<div class="nav_header">
+			<div class="main_title">人生100年時代の<br>リフォーム<br>応援ナビサイト</div>
+			<div class="sub_title">50代からのリフォームを<br>知って探して⾒つける</div>
+			<div class="col_search"></div>
+		</div>
+		<div class="nav_body">
+			<div class="nav_close" role="button" tabindex="0" aria-label="メニューを閉じる"></div>
+			<ul class="main_nav">
+				<li><a href="https://www.cbl.or.jp/r-navi/">HOME</a></li>
+			</ul>
+			<div class="search_title">
+				<div class="search_title_inner">テーマからさがす</div>
+			</div>
+			<ul class="main_nav">
+				<li>
+					<div class="col_item_main">
+						<a href="https://www.cbl.or.jp/r-navi/search_theme/">テーマからさがす</a>
+					</div>
+				</li>
+				<li>
+					<div class="col_item_main">
+						<a href="https://www.cbl.or.jp/r-navi/search_theme/kind/">身体にやさしく暮らしたい</a>
+						<div class="btn_subnav_open"></div>
+					</div>
+					<ul class="sub_nav">
+						<li><a href="https://www.cbl.or.jp/r-navi/search_theme/kind/temp/">快適な温度で身体にやさしく</a></li>
+						<li><a href="https://www.cbl.or.jp/r-navi/search_theme/kind/hot/">快適な入浴で身体にやさしく</a></li>
+					</ul>
+				</li>
+				<li>
+					<div class="col_item_main">
+						<a href="https://www.cbl.or.jp/r-navi/search_theme/clean/">住まいも身体も清潔でいたい</a>
+						<div class="btn_subnav_open"></div>
+					</div>
+					<ul class="sub_nav">
+						<li><a href="https://www.cbl.or.jp/r-navi/search_theme/clean/souji/">汚れにくく、掃除しやすく</a></li>
+						<li><a href="https://www.cbl.or.jp/r-navi/search_theme/clean/touchless/">触れずにムダなく清潔に</a></li>
+						<li><a href="https://www.cbl.or.jp/r-navi/search_theme/clean/water/">除菌水等でより衛生的に</a></li>
+						<li><a href="https://www.cbl.or.jp/r-navi/search_theme/clean/air/">空気環境も清潔に</a></li>
+					</ul>
+				</li>
+				<li>
+					<div class="col_item_main">
+						<a href="https://www.cbl.or.jp/r-navi/search_theme/kajiraku/">家事をラクにこなしたい</a>
+						<div class="btn_subnav_open"></div>
+					</div>
+					<ul class="sub_nav">
+						<li><a href="https://www.cbl.or.jp/r-navi/search_theme/kajiraku/jitan/">家事は時短でラクに快適に</a></li>
+					</ul>
+				</li>
+				<li>
+					<div class="col_item_main">
+						<a href="https://www.cbl.or.jp/r-navi/search_theme/life/">住まいを使いやすくしたい</a>
+						<div class="btn_subnav_open"></div>
+					</div>
+					<ul class="sub_nav">
+						<li><a href="https://www.cbl.or.jp/r-navi/search_theme/life/bathroom/">浴室・洗面室を使いやすく・快適に</a></li>
+						<li><a href="https://www.cbl.or.jp/r-navi/search_theme/life/toilet/">トイレを使いやすく・快適に</a></li>
+						<li><a href="https://www.cbl.or.jp/r-navi/search_theme/life/kitchen/">キッチンを便利に使いやすく</a></li>
+						<li><a href="https://www.cbl.or.jp/r-navi/search_theme/life/living/">居室を便利に使いやすく</a></li>
+						<li><a href="https://www.cbl.or.jp/r-navi/search_theme/life/easymove/">住居内を移動しやすく</a></li>
+						<li><a href="https://www.cbl.or.jp/r-navi/search_theme/life/entrance/">住居への出入りをしやすく</a></li>
+						<li><a href="https://www.cbl.or.jp/r-navi/search_theme/life/gate/">敷地への出入りをしやすく</a></li>
+						<li><a href="https://www.cbl.or.jp/r-navi/search_theme/life/monitoring/">住宅をモニタリング・遠隔で操作</a></li>
+					</ul>
+				</li>
+				<li>
+					<div class="col_item_main">
+						<a href="https://www.cbl.or.jp/r-navi/search_theme/kakei/">家計のムダをなくしたい</a>
+						<div class="btn_subnav_open"></div>
+					</div>
+					<ul class="sub_nav">
+						<li><a href="https://www.cbl.or.jp/r-navi/search_part/energy/">水光熱費の負担を少なく</a></li>
+						<li><a href="https://www.cbl.or.jp/r-navi/search_theme/kakei/ijikanri/">維持管理費の負担を少なく</a></li>
+					</ul>
+				</li>
+				<li>
+					<div class="col_item_main">
+						<a href="https://www.cbl.or.jp/r-navi/search_theme/watch/">家族を見守りたい</a>
+						<div class="btn_subnav_open"></div>
+					</div>
+					<ul class="sub_nav">
+						<li><a href="https://www.cbl.or.jp/r-navi/search_theme/watch/separation/">離れて暮らす家族を見守る</a></li>
+						<li><a href="https://www.cbl.or.jp/r-navi/search_theme/watch/cohabitation/">一緒に暮らす家族を見守る</a></li>
+					</ul>
+				</li>
+				<li>
+					<div class="col_item_main">
+						<a href="https://www.cbl.or.jp/r-navi/search_theme/lifestyles/">多様な暮らしを実現したい</a>
+						<div class="btn_subnav_open"></div>
+					</div>
+					<ul class="sub_nav">
+						<li><a href="https://www.cbl.or.jp/r-navi/search_theme/lifestyles/enjoy/">仕事や趣味を楽しむ</a></li>
+						<li><a href="https://www.cbl.or.jp/r-navi/search_theme/lifestyles/pet/">ペットと暮らす</a></li>
+					</ul>
+				</li>
+				<li>
+					<div class="col_item_main">
+						<a href="https://www.cbl.or.jp/r-navi/search_theme/disaster/">防災や防犯に配慮したい</a>
+						<div class="btn_subnav_open"></div>
+					</div>
+					<ul class="sub_nav">
+						<li><a href="https://www.cbl.or.jp/r-navi/search_theme/disaster/earthquake/">地震時の安全性</a></li>
+						<li><a href="https://www.cbl.or.jp/r-navi/search_theme/disaster/fire/">火災時の安全性</a></li>
+						<li><a href="https://www.cbl.or.jp/r-navi/search_theme/disaster/typhoon/">台風時の安全性</a></li>
+						<li><a href="https://www.cbl.or.jp/r-navi/search_theme/disaster/poweroutage/">停電時等の自立性確保</a></li>
+						<li><a href="https://www.cbl.or.jp/r-navi/search_theme/disaster/security/">日常の防犯対策</a></li>
+					</ul>
+				</li>
+			</ul>
+			<div class="search_title">
+				<div class="search_title_inner">部屋、建材・設備からさがす</div>
+			</div>
+			<ul class="main_nav">
+				<li>
+					<div class="col_item_main">
+						<a href="https://www.cbl.or.jp/r-navi/search_part/">部屋、建材・設備からさがす</a>
+						<div class="btn_subnav_open"></div>
+					</div>
+					<ul class="sub_nav">
+						<li><a href="https://www.cbl.or.jp/r-navi/search_part/bathroom/">浴室</a></li>
+						<li><a href="https://www.cbl.or.jp/r-navi/search_part/powderroom/">洗面・脱衣室</a></li>
+						<li><a href="https://www.cbl.or.jp/r-navi/search_part/toilet/">トイレ</a></li>
+						<li><a href="https://www.cbl.or.jp/r-navi/search_part/kitchen/">キッチン</a></li>
+						<li><a href="https://www.cbl.or.jp/r-navi/search_part/living/">リビング・居室</a></li>
+						<li><a href="https://www.cbl.or.jp/r-navi/search_part/window/">窓</a></li>
+						<li><a href="https://www.cbl.or.jp/r-navi/search_part/entrance/">玄関</a></li>
+						<li><a href="https://www.cbl.or.jp/r-navi/search_part/stairs/">廊下・階段</a></li>
+						<li><a href="https://www.cbl.or.jp/r-navi/search_part/energy/">給湯器</a></li>
+					</ul>
+				</li>
+			</ul>
+			<div class="search_title">
+				<div class="search_title_inner">答えてさがす</div>
+			</div>
+			<ul class="main_nav">
+				<li>
+					<div class="col_item_main">
+						<a href="https://www.cbl.or.jp/r-navi/search_check/">答えてさがす</a>
+						<div class="btn_subnav_open"></div>
+					</div>
+					<ul class="sub_nav">
+						<li><a href="https://www.cbl.or.jp/r-navi/search_check/problem/">住まいや暮らしの「困った」に関するチェックリスト</a></li>
+						<li><a href="https://www.cbl.or.jp/r-navi/search_check/want/">「こんな住まい・暮らしにしたい」に関するチェックリスト</a></li>
+					</ul>
+				</li>
+			</ul>
+			<div class="search_title">
+				<div class="search_title_inner">お役立ち情報</div>
+			</div>
+			<ul class="main_nav">
+				<li>
+					<div class="col_item_main">
+						<a href="https://www.cbl.or.jp/r-navi/contents/tips/">お役立ち情報</a>
+						<div class="btn_subnav_open"></div>
+					</div>
+					<ul class="sub_nav">
+						<li><a href="https://www.cbl.or.jp/r-navi/contents/tips/dept/">参加メーカー情報検索（ショールーム検索、SNSなど）</a></li>
+						<li><a href="https://www.cbl.or.jp/r-navi/contents/tips/blparts/">優良住宅部品（BL部品）等</a></li>
+						<li><a href="https://www.cbl.or.jp/r-navi/contents/tips/living_guide">高齢期の健康で快適な暮らしのための住まいの改修ガイドライン</a></li>
+						<li><a href="https://www.cbl.or.jp/r-navi/contents/tips/support/">リフォームに関する補助制度等</a></li>
+						<li><a href="https://www.cbl.or.jp/r-navi/contents/tips/selection/">事業者の選び方</a></li>
+						<li><a href="https://www.cbl.or.jp/r-navi/contents/tips/datas/">機能・製品データベース・リスト ダウンロード</a></li>
+					</ul>
+				</li>
+			</ul>
+			<div class="search_title topic">
+				<div class="search_title_inner">&nbsp;</div>
+			</div>
+			<ul class="main_nav">
+				<li>
+					<div class="col_item_main">
+						<a href="https://www.cbl.or.jp/r-navi/contents/column/">コラム：リフォームを考えはじめた時に読みたい記事</a>
+					</div>
+				</li>
+			</ul>
+			<div class="search_title topic">
+				<div class="search_title_inner">&nbsp;</div>
+			</div>
+			<ul class="main_nav">
+				<li>
+					<div class="col_item_main">
+						<a href="https://www.cbl.or.jp/r-navi/contents/topic/life/">健康で快適、安心・安全に暮らす住まいのポイント</a>
+					</div>
+				</li>
+			</ul>
+			<div class="search_title topic">
+				<div class="search_title_inner">&nbsp;</div>
+			</div>
+			<ul class="main_nav">
+				<li>
+					<div class="col_item_main">
+						<a href="https://www.cbl.or.jp/r-navi/contents/info/">お知らせ</a>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+</nav>
+
+
+<main class="c-main"><div class="c-preview-note">第21〜30回｜クライアントご確認用<span>公開前の確認用原稿です</span></div><nav class="column-breadcrumb" aria-label="パンくず"><a href="index.html">コラム一覧</a><span>›</span><span>第30回</span></nav><div class="c-title"><span class="c-badge">第30回</span><h1>スマートホームが使いにくい・不安｜見守り・停電・プライバシーで選ぶ自動化</h1><p class="c-description">家の自動化を、使う人の希望、見守り情報、停電・通信断、更新と終了時の手続きから考える。小さく始める選び方を紹介します。</p><p class="c-small">公開日：未定</p><span class="c-tag">スマートホーム・見守り</span><div class="c-byline"><img src="images/author-eisuke.webp" alt="著者エイスケ"><span>文｜エイスケ（住宅と教育の専門家）</span></div></div><figure class="c-hero"><img src="uploads/c30-hero.png" alt="照明の操作をスマートフォンで一緒に確認する夫婦のイメージ"><figcaption>掲載画像はイメージです。実際の施工例や特定の製品・人物を示すものではありません。</figcaption></figure><div class="column-article-body c-lead"><p>外出先から照明を消せる。離れて暮らす家族の様子を確認できる。スマートホームは便利そうですが、アプリが増えるほど、操作する人に仕事が集中することもあります。「設定した本人がいないと使えない家」になっては、せっかくの便利さが負担になります。</p>
+<p>家の自動化で最初に考えたいのは、機器の多さではなく、誰のどんな困りごとを減らしたいかです。見守り、停電、個人情報、手動操作という視点から、長く使いやすい仕組みの選び方を整理します。</p></div><aside class="c-points"><h2>この記事のポイント</h2><ul><li>自動化は一つの困りごとから始め、普段使う人が操作できるかを確かめる。</li><li>見守られる本人の希望を中心に、記録する情報と見られる人を決める。</li><li>通信断、停電、電池切れ、サービス終了を想定し、代わりの方法を用意する。</li></ul></aside><nav class="c-toc" aria-label="この記事の目次"><strong>この記事の目次</strong><ol><li><a href="#section-1">便利な機能より、減らしたい動作を決める</a></li><li><a href="#section-2">見守りは、本人が選べることを大切に</a></li><li><a href="#section-3">通知がないことは、無事の証明ではない</a></li><li><a href="#section-4">停電・通信断・電池切れを、分けて確かめる</a></li><li><a href="#section-5">パスワードと更新も、家の手入れの一部</a></li><li><a href="#section-6">小さく導入し、使わない機能は増やさない</a></li></ol></nav><article class="column-article-body"><section id="section-1"><h2>1. 便利な機能より、減らしたい動作を決める</h2><p>手の届きにくい照明を操作したい、消し忘れを減らしたい、離れた家族との連絡を補いたい。困りごとが具体的なら、必要な機能を絞れます。最初から家全体を連携させる必要はありません。</p>
+<p>購入前には、普段使う人が、音声、ボタン、アプリのどれを使いやすいと感じるか確かめます。音声が聞き取りにくい場面、スマートフォンを持たない家族、来客時の操作も考えます。使う人の事情は、設定する人と同じとは限りません。</p>
+<p>製品が対応する機器、通信方法、契約、利用料金も確認します。同じ「スマート」という表示でも、組み合わせて動くとは限りません。互換性と必要な機能は、メーカーの最新の説明で確認してください。</p></section><section id="section-2"><h2>2. 見守りは、本人が選べることを大切に</h2><p>家族が安心したい気持ちと、見守られる人が落ち着いて暮らしたい気持ちは、両方大切です。カメラを付ける前に、何が分かればよいのかを話します。常時映像が必要なのか、生活の変化を知らせる通知で足りるのか、連絡の頻度を変える方がよいのか。選択肢を並べましょう。</p>
+<p>本人には、何を記録し、誰が見られ、どこへ保存され、いつ消えるかを説明します。途中でやめたい、撮られたくない時間や場所があるという希望も尊重します。本人に知らせず、家族の都合だけで監視する運用は避けます。</p>
+<p>訪問する介護職や来客、同居者への配慮も必要です。特にカメラは映り込む範囲を確認します。安心を増やすための機器が、家でくつろぐ感覚を奪わないように考えましょう。</p>
+<figure class="c-diagram"><figcaption>導入前に確かめる四つの場面</figcaption><ol><li><strong>普段の操作</strong><span>設定した人がいなくても使えるか</span></li><li><strong>情報の扱い</strong><span>本人の希望、閲覧者、保存・削除方法</span></li><li><strong>動かないとき</strong><span>手動操作、物理鍵、別の連絡手段</span></li><li><strong>使い終えるとき</strong><span>契約終了、連携解除、データ消去</span></li></ol></figure>
+<p>図は筆者による確認項目の整理です。特定の製品の対応機能や安全性能を示すものではありません。</p></section><section id="section-3"><h2>3. 通知がないことは、無事の証明ではない</h2><p>見守り機器の通知がないとき、本人が普段どおり過ごしているとは限りません。通信、電源、設定などの問題で情報が届いていない可能性もあります。逆に、通知が来たから直ちに事故が起きたとも限りません。</p>
+<p>誰が通知を受け取り、確認できないときは誰へ連絡するかを決めます。本人への連絡、近くの協力者への相談、緊急時の対応など、機器の役割と人の役割を分けておきましょう。一般の見守り機器を、医療機器や確実な緊急通報の代替とみなさないことも重要です。</p>
+<p>通知が多すぎて見なくなっているなら、目的や設定を見直す時期かもしれません。記録を増やすより、必要な情報を受け取って実際に対応できる運用にすることが大切です。</p></section><section id="section-4"><h2>4. 停電・通信断・電池切れを、分けて確かめる</h2><p>停電しても電池で動く機器、電源は入っていてもインターネットがないと遠隔操作できない機器など、止まり方は製品ごとに違います。「電池式だから全部使える」「同じ無線規格だから通信断でも動く」とは判断できません。</p>
+<p>鍵や照明など生活に直結する設備は、手動で使う方法を先に確認します。物理鍵、室内側の解錠、手動スイッチなど、メーカーの指定する代替手段を家族で共有してください。締め出しや事故につながるような試験を自分たちだけで行わず、説明書やサポート窓口に確認します。</p>
+<p>電池の交換、充電、アプリの通知の確認も、誰が担うか決めます。機器を導入する費用だけでなく、この維持の手間を引き受けられるかが、長く使う条件です。</p></section><section id="section-5"><h2>5. パスワードと更新も、家の手入れの一部</h2><p>IPAは、家庭用ルーターやIoT機器の対策として、推測されにくいパスワード、更新の適用、サポートが終わった機器の見直しなどを案内しています。<a class="c-ref" href="#source-1" aria-label="出典1">[1]</a> 見た目は使えていても、安全に使うための更新が続いているかを確認しましょう。</p>
+<p>対応している場合は多要素認証を利用し、不要なアカウント連携や閲覧権限を残さないようにします。家族で使う際も、管理者のパスワードを無制限に共有するのではなく、製品の家族招待機能など、必要な権限だけを渡せる方法を確認します。</p>
+<p>購入時には、更新の提供期間、問い合わせ先、データの保存先や削除方法を見ます。JC-STARのようなセキュリティラベルも確認材料の一つですが、ラベルだけで全ての使い方やプライバシーが保証されるわけではありません。<a class="c-ref" href="#source-2" aria-label="出典2">[2]</a> 製品の説明と家庭の運用を合わせて考えます。</p></section><section id="section-6"><h2>6. 小さく導入し、使わない機能は増やさない</h2><p>最初は一つの照明など、失敗した場合の影響を把握しやすい範囲から検討します。使う人が操作できるか、家族の負担が減ったかを確かめ、必要なら広げます。自動化しない方が使いやすい部分を残しても構いません。</p>
+<p>使わなくなった機器は、アカウント連携、保存データ、契約の扱いをメーカーの案内に沿って整理します。初期化、登録解除、課金停止が別の手続きになっている場合もあるため、一つの操作ですべて終わると決めつけないようにします。</p>
+<p>賃貸やマンションでは、鍵、配線、共用部への取り付けなどに制約があります。所有者や管理組合への確認も必要です。家を便利にする道具は、家族が使い方を理解し、やめる方法まで分かっていてこそ、暮らしの助けになります。</p></section></article><section class="c-faq"><h2>よくある質問</h2><details><summary>まず何を自動化すればよいですか？<span aria-hidden="true">＋</span></summary><p>家族が困っている動作を一つ選びます。必要な機能と、動かないときの代替手段を確認してから導入します。</p></details><details><summary>親の見守りにカメラを付けたいです。<span aria-hidden="true">＋</span></summary><p>本人の希望と同意を確認し、映像が本当に必要かから話します。保存範囲、閲覧者、やめ方も共有してください。</p></details><details><summary>通知がなければ安心できますか？<span aria-hidden="true">＋</span></summary><p>通信や電源の問題で届かない可能性もあります。通知だけに依存せず、連絡方法と対応する人を決めておきます。</p></details><details><summary>スマートロックは停電でも開きますか？<span aria-hidden="true">＋</span></summary><p>製品ごとに違います。電池切れや通信断も含め、手動解錠や物理鍵の扱いをメーカーに確認してください。</p></details><details><summary>セキュリティのために何を確認しますか？<span aria-hidden="true">＋</span></summary><p>更新の提供、パスワードや認証の設定、閲覧権限、データ保存・削除方法を確認します。古い機器のサポート状況も見直します。</p></details><details><summary>サービスが終了したらどうなりますか？<span aria-hidden="true">＋</span></summary><p>残る機能と使えなくなる機能は契約・製品で異なります。購入前に確認し、手動操作などの代替手段を確保します。</p></details></section><section class="c-family column-article-body"><h2>家族と話し合おう</h2><ol><li>自動化で減らしたい困りごとは、誰のどんな動作ですか。</li><li>見守りで共有してよい情報と、知られたくない情報は何ですか。</li><li>設定した人が不在でも、操作とトラブル対応ができますか。</li></ol></section><aside class="c-summary"><h2>この記事のまとめ</h2><p>スマートホームは、機能が多いほど暮らしやすくなるとは限りません。使う人の希望、情報の扱い、止まったときの代替手段、維持の手間を確認します。一つの困りごとから始め、家族が使えて、必要ならやめられる自動化を選びましょう。</p></aside><details class="c-sources"><summary>出典・参考資料を見る</summary><ol><li id="source-1"><a href="https://www.ipa.go.jp/security/security-alert/2025/alert20251031_router.html" target="_blank" rel="noopener noreferrer">IPA『家庭用ルータ・IoTルータ等、ネットワーク境界のORB化のおそれについて』（2025年10月31日）</a></li><li id="source-2"><a href="https://www.ipa.go.jp/security/jc-star/detail.html" target="_blank" rel="noopener noreferrer">IPA『セキュリティラベリング制度 JC-STAR についての詳細情報』</a></li></ol><p>資料確認日：2026年9月11日。一般的な整理・提案と、出典に基づく説明を区別して記載しています。</p></details><p class="c-small">製品の対応機能、サービス、料金や更新方針は変わります。購入・設定前に公式の説明を確認してください。一般の見守り機器は医療・緊急通報の確実な代替ではありません。</p><section class="c-links"><h2>関連する住まいの機能・設備を探す</h2><a href="https://www.cbl.or.jp/r-navi/search_theme/life/monitoring/" target="_blank" rel="noopener noreferrer">住宅をモニタリング・遠隔で操作 ↗</a></section><section class="c-links" data-related-articles><h2>関連記事</h2><a href="column-29.dc.html">【第29回】修繕履歴や設備情報がわからない｜家の取扱説明書に残す5項目</a><a href="column-28.dc.html">【第28回】夜の廊下・階段でつまずく前に｜足元灯とスイッチ配置の見直し方</a><a href="https://eisuke-orion.github.io/100-year-renovation-navi-preview-b/legacy/column-18.dc.html" target="_blank" rel="noopener noreferrer">【第18回】地震直後、6避難所の調査で多かった困りごとはトイレ</a><a href="https://eisuke-orion.github.io/100-year-renovation-navi-preview-b/legacy/column-17.dc.html" target="_blank" rel="noopener noreferrer">【第17回】住まいの悩みを生成AIで整理する──入力と得られる結果がわかる4つの使い方</a></section>  <div style="display:flex;align-items:center;gap:16px;background:#fff;border:1px solid oklch(0.89 0.02 85);border-radius:16px;padding:22px;margin-bottom:36px;">
+    <img  src="images/author-eisuke.webp" alt="著者エイスケ" style="width:56px;height:56px;flex:none;display:block;object-fit:cover;border-radius:50%">
+    <div><p style="font-family:'Zen Maru Gothic',sans-serif;font-weight:700;font-size:14.5px;margin:0 0 6px;">この記事を書いた人｜エイスケ</p><p style="font-size:13px;line-height:1.75;color:oklch(0.48 0.015 90);margin:0;">1986年生まれ。実家の工務店・不動産に10年間従事したのち、教育の世界へ。住宅と教育、両方の視点から「豊かな暮らし」をテーマに執筆します。※本コラムは筆者個人の見解・経験に基づくものです。最終的な判断は各分野の専門家にご相談ください。</p></div>
+  </div>
+
+<nav class="column-pagination c-pagination" aria-label="コラム前後ナビゲーション"><a href="column-29.dc.html">← 前の回</a><a href="index.html">目次に戻る</a><span>第21〜30回</span></nav></main><section class="check_history"></section>
+<div class="btn_totop"></div>
+<footer>
+		<div class="box_btn"><a href="https://www.cbl.or.jp/r-navi/contents/aboutus/howto/">本サイトの便利な使い方</a></div>
+		<div class="footer_menu">
+			<div class="col_menu">
+				<div class="menu_title"><a href="https://www.cbl.or.jp/r-navi/search_theme/">テーマからさがす</a></div>
+				<ul>
+					<li><a href="https://www.cbl.or.jp/r-navi/search_theme/kind/">身体にやさしく暮らしたい</a></li>
+					<li><a href="https://www.cbl.or.jp/r-navi/search_theme/clean/">住まいも身体も清潔でいたい</a></li>
+					<li><a href="https://www.cbl.or.jp/r-navi/search_theme/kajiraku/">家事をラクにこなしたい</a></li>
+					<li><a href="https://www.cbl.or.jp/r-navi/search_theme/life/">住まいを使いやすくしたい</a></li>
+					<li><a href="https://www.cbl.or.jp/r-navi/search_theme/kakei/">家計のムダをなくしたい</a></li>
+					<li><a href="https://www.cbl.or.jp/r-navi/search_theme/watch/">家族を見守りたい</a></li>
+					<li><a href="https://www.cbl.or.jp/r-navi/search_theme/lifestyles/">多様な暮らしを実現したい</a></li>
+					<li><a href="https://www.cbl.or.jp/r-navi/search_theme/disaster/">防災や防犯に配慮したい</a></li>
+				</ul>
+			</div>
+			<div class="col_menu">
+				<div class="menu_title"><a href="https://www.cbl.or.jp/r-navi/search_part/">部屋、建材・設備からさがす</a></div>
+				<ul>
+					<li><a href="https://www.cbl.or.jp/r-navi/search_part/bathroom/">浴室</a></li>
+					<li><a href="https://www.cbl.or.jp/r-navi/search_part/powderroom/">洗面・脱衣室</a></li>
+					<li><a href="https://www.cbl.or.jp/r-navi/search_part/toilet/">トイレ</a></li>
+					<li><a href="https://www.cbl.or.jp/r-navi/search_part/kitchen/">キッチン</a></li>
+					<li><a href="https://www.cbl.or.jp/r-navi/search_part/living/">リビング・居室</a></li>
+					<li><a href="https://www.cbl.or.jp/r-navi/search_part/window/">窓</a></li>
+					<li><a href="https://www.cbl.or.jp/r-navi/search_part/entrance/">玄関</a></li>
+					<li><a href="https://www.cbl.or.jp/r-navi/search_part/stairs/">廊下・階段</a></li>
+					<li><a href="https://www.cbl.or.jp/r-navi/search_part/energy/">給湯器</a></li>
+				</ul>
+			</div>
+			<div class="col_menu">
+				<div class="menu_title"><a href="https://www.cbl.or.jp/r-navi/search_check/">答えてさがす</a></div>
+				<ul>
+					<li><a href="https://www.cbl.or.jp/r-navi/search_check/problem/">住まいや暮らしの「困った」に関するチェックリスト</a></li>
+					<li><a href="https://www.cbl.or.jp/r-navi/search_check/want/">「こんな住まい・暮らしにしたい」に関するチェックリスト</a></li>
+				</ul>
+			</div>
+			<div class="col_menu">
+				<div class="menu_title"><a href="https://www.cbl.or.jp/r-navi/contents/tips/">お役立ち情報</a></div>
+				<ul>
+					<li>
+						<a href="https://www.cbl.or.jp/r-navi/contents/tips/dept/">参加メーカー情報検索（ショールーム検索、SNSなど）</a>
+					</li>
+					<li>
+						<a href="https://www.cbl.or.jp/r-navi/contents/tips/blparts/">優良住宅部品（BL部品）等</a>
+					</li>
+					<li>
+						<a href="https://www.cbl.or.jp/r-navi/contents/tips/living_guide">高齢期の健康で快適な暮らしのための住まいの改修ガイドライン</a>
+					</li>
+					<li>
+						<a href="https://www.cbl.or.jp/r-navi/contents/tips/selection">事業者の選び方</a>
+					</li>
+					<li>
+						<a href="https://www.cbl.or.jp/r-navi/contents/tips/support">リフォームに<br>関する補助制度等</a>
+					</li>
+					<li>
+						<a href="https://www.cbl.or.jp/r-navi/contents/tips/datas/">機能・製品リストダウンロード</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="footer_menu">
+			<div class="col_menu">
+				<div class="menu_title"><a href="https://www.cbl.or.jp/r-navi/contents/column/">コラム：<br class="only_sp">リフォームを考えはじめた時に読みたい記事</a></div>
+			</div>
+		</div>
+		<div class="footer_menu">
+			<div class="col_menu">
+				<div class="menu_title"><a href="https://www.cbl.or.jp/r-navi/contents/topic/life/">健康で快適、安心・安全に暮らす<br class="only_sp">住まいのポイント</a></div>
+			</div>
+		</div>
+		<div class="footer_menu">
+			<div class="col_menu">
+				<div class="menu_title">本サイトについて</div>
+				<ul>
+					<li><a href="https://www.cbl.or.jp/r-navi/contents/info/">お知らせ</a></li>
+					<li><a href="https://www.cbl.or.jp/r-navi/contents/aboutus/policy/">サイトポリシー</a></li>
+					<li><a href="https://www.cbl.or.jp/r-navi/contents/aboutus/studygp/">人生100年対応住宅部品研究会</a></li>
+					<li><a href="https://www.cbl.or.jp/r-navi/contents/aboutus/ask/">お問い合わせ先</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="wrap_sns">
+			<ul>
+				<li><a href="https://www.instagram.com/r.navi.100/" target="_blank"><img src="../img/Instagram_Glyph_White.svg" alt=""></a></li>
+			</ul>
+		</div>
+		<div class="box_logo_bl"><a href="https://www.cbl.or.jp/" target="_blank"><img src="../img/logo_bl.svg" alt=""></a></div>
+</footer>
+
+
+</body>
+</html>

@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="../css/common.css" rel="stylesheet" />
+<link href="css/column-overrides.css" rel="stylesheet" />
+<script src="js/jquery-2.2.4.min.js"></script>
+<script src="../js/common.js"></script>
+<title>夜の廊下・階段でつまずく前に｜足元灯とスイッチ配置の見直し方</title>
+<meta name="robots" content="noindex,nofollow">
+
+<script src="./column-nav.js" defer></script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@500;700;900&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  body { margin:0; background:oklch(0.98 0.014 85); }
+  a { color:oklch(0.42 0.1 155); text-decoration:none; }
+  a:hover { color:oklch(0.34 0.1 155); text-decoration:underline; }
+  * { box-sizing:border-box; }
+  details > summary { cursor:pointer; list-style:none; }
+  details > summary::-webkit-details-marker { display:none; }
+  details > summary:hover { background:oklch(0.98 0.02 150); }
+  details[open] .faq-chevron { transform:rotate(45deg); }
+  .column-article-body h2 { font-family:'Zen Maru Gothic',sans-serif; font-weight:700; font-size:21px; line-height:1.6; margin:40px 0 16px; }
+  .column-article-body p { font-size:16.5px; line-height:1.95; margin:0 0 16px; }
+  .column-article-body ul,.column-article-body ol { margin:0 0 18px; padding-left:24px; font-size:16px; line-height:1.9; }
+  .column-article-body li { margin-bottom:8px; }
+  .column-article-body blockquote { margin:18px 0; padding:16px 20px; border-left:4px solid oklch(0.7 0.08 155); background:#fff; border-radius:0 12px 12px 0; }
+  .column-article-body blockquote p { margin:0; font-size:15.5px; }
+  .column-article-body table { width:100%; border-collapse:collapse; margin:18px 0 24px; font-size:14px; background:#fff; }
+  .column-article-body th,.column-article-body td { border:1px solid oklch(0.86 0.02 85); padding:10px 12px; text-align:left; vertical-align:top; }
+  .column-article-body th { background:oklch(0.95 0.03 150); }
+  .column-caution { font-size:13.5px; line-height:1.8; color:oklch(0.42 0.04 75); background:oklch(0.96 0.025 70); border-radius:12px; padding:16px 18px; margin:22px 0 34px; }
+  @media (max-width:600px) { .column-article-body table { display:block; overflow-x:auto; white-space:nowrap; } }
+</style>
+
+<meta name="description" content="夜の動線を、歩く前・途中・戻るときに分けて確認。足元灯、人感センサー、スイッチと停電時の備えを整理します。">
+<link rel="canonical" href="https://eisuke-orion.github.io/100-year-renovation-navi-preview-c-sharp/legacy/column-28.dc.html">
+<meta property="og:title" content="夜の廊下・階段でつまずく前に｜足元灯とスイッチ配置の見直し方">
+<meta property="og:description" content="夜の動線を、歩く前・途中・戻るときに分けて確認。足元灯、人感センサー、スイッチと停電時の備えを整理します。">
+<meta property="og:url" content="https://eisuke-orion.github.io/100-year-renovation-navi-preview-c-sharp/legacy/column-28.dc.html">
+<meta property="og:type" content="article">
+<meta property="og:locale" content="ja_JP">
+<meta property="og:image" content="https://eisuke-orion.github.io/100-year-renovation-navi-preview-c-sharp/legacy/uploads/c28-hero.png">
+<meta property="og:image:alt" content="足元の照明で床面が見える夜の廊下のイメージ">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "夜の廊下・階段でつまずく前に｜足元灯とスイッチ配置の見直し方", "description": "夜の動線を、歩く前・途中・戻るときに分けて確認。足元灯、人感センサー、スイッチと停電時の備えを整理します。", "inLanguage": "ja", "url": "https://eisuke-orion.github.io/100-year-renovation-navi-preview-c-sharp/legacy/column-28.dc.html", "creativeWorkStatus": "Draft", "dateModified": "2026-09-11", "image": "https://eisuke-orion.github.io/100-year-renovation-navi-preview-c-sharp/legacy/uploads/c28-hero.png", "author": {"@type": "Person", "name": "エイスケ"}}</script>
+<link rel="stylesheet" href="css/client-preview.css">
+<script src="client-preview.js" defer></script>
+</head>
+<body>
+
+
+<header>
+	<div class="inner">
+		<div class="wrap_search">
+			<script async src="https://cse.google.com/cse.js?cx=d0dde822ecfe64816">
+			</script>
+			<div class="gcse-search"></div>
+			<div class="btn_close_search"></div>
+		</div>
+		<div class="nav_open" role="button" tabindex="0" aria-label="メニューを開く" aria-controls="site-global-nav" aria-expanded="false"></div>
+		<div class="box_logo">
+			<a href="https://www.cbl.or.jp/r-navi/">
+				<div class="logo_main">人生100年時代の<br class="only_sp">リフォーム応援ナビサイト</div>
+				<div class="logo_sub">50代からのリフォームを知って探して⾒つける</div>
+			</a>
+		</div>
+		<div class="box_btn">
+			<div class="search_area">
+				<img src="../img/icon_search.svg" alt="">
+			</div>
+			<div class="history_area">
+				<a href="https://www.cbl.or.jp/r-navi/history/"><img src="../img/icon_history.svg" alt=""></a>
+			</div>
+		</div>
+</div>
+	<div class="fix_header">
+		<div class="inner">
+		<div class="wrap_search">
+			<script async src="https://cse.google.com/cse.js?cx=d0dde822ecfe64816">
+			</script>
+			<div class="gcse-search"></div>
+			<div class="btn_close_search"></div>
+		</div>
+		<div class="nav_open" role="button" tabindex="0" aria-label="メニューを開く" aria-controls="site-global-nav" aria-expanded="false"></div>
+		<div class="box_logo">
+			<a href="https://www.cbl.or.jp/r-navi/">
+				<div class="logo_main">人生100年時代の<br class="only_sp">リフォーム応援ナビサイト</div>
+				<div class="logo_sub">50代からのリフォームを知って探して⾒つける</div>
+			</a>
+		</div>
+		<div class="box_btn">
+			<div class="search_area">
+				<img src="../img/icon_search.svg" alt="">
+			</div>
+			<div class="history_area">
+				<a href="https://www.cbl.or.jp/r-navi/history/"><img src="../img/icon_history.svg" alt=""></a>
+			</div>
+		</div>
+</div>
+	</div>
+</header>
+
+<nav id="site-global-nav" class="site-global-nav" aria-label="メインメニュー" aria-hidden="true">
+	<div class="wrap_nav_inner">
+		<div class="nav_header">
+			<div class="main_title">人生100年時代の<br>リフォーム<br>応援ナビサイト</div>
+			<div class="sub_title">50代からのリフォームを<br>知って探して⾒つける</div>
+			<div class="col_search"></div>
+		</div>
+		<div class="nav_body">
+			<div class="nav_close" role="button" tabindex="0" aria-label="メニューを閉じる"></div>
+			<ul class="main_nav">
+				<li><a href="https://www.cbl.or.jp/r-navi/">HOME</a></li>
+			</ul>
+			<div class="search_title">
+				<div class="search_title_inner">テーマからさがす</div>
+			</div>
+			<ul class="main_nav">
+				<li>
+					<div class="col_item_main">
+						<a href="https://www.cbl.or.jp/r-navi/search_theme/">テーマからさがす</a>
+					</div>
+				</li>
+				<li>
+					<div class="col_item_main">
+						<a href="https://www.cbl.or.jp/r-navi/search_theme/kind/">身体にやさしく暮らしたい</a>
+						<div class="btn_subnav_open"></div>
+					</div>
+					<ul class="sub_nav">
+						<li><a href="https://www.cbl.or.jp/r-navi/search_theme/kind/temp/">快適な温度で身体にやさしく</a></li>
+						<li><a href="https://www.cbl.or.jp/r-navi/search_theme/kind/hot/">快適な入浴で身体にやさしく</a></li>
+					</ul>
+				</li>
+				<li>
+					<div class="col_item_main">
+						<a href="https://www.cbl.or.jp/r-navi/search_theme/clean/">住まいも身体も清潔でいたい</a>
+						<div class="btn_subnav_open"></div>
+					</div>
+					<ul class="sub_nav">
+						<li><a href="https://www.cbl.or.jp/r-navi/search_theme/clean/souji/">汚れにくく、掃除しやすく</a></li>
+						<li><a href="https://www.cbl.or.jp/r-navi/search_theme/clean/touchless/">触れずにムダなく清潔に</a></li>
+						<li><a href="https://www.cbl.or.jp/r-navi/search_theme/clean/water/">除菌水等でより衛生的に</a></li>
+						<li><a href="https://www.cbl.or.jp/r-navi/search_theme/clean/air/">空気環境も清潔に</a></li>
+					</ul>
+				</li>
+				<li>
+					<div class="col_item_main">
+						<a href="https://www.cbl.or.jp/r-navi/search_theme/kajiraku/">家事をラクにこなしたい</a>
+						<div class="btn_subnav_open"></div>
+					</div>
+					<ul class="sub_nav">
+						<li><a href="https://www.cbl.or.jp/r-navi/search_theme/kajiraku/jitan/">家事は時短でラクに快適に</a></li>
+					</ul>
+				</li>
+				<li>
+					<div class="col_item_main">
+						<a href="https://www.cbl.or.jp/r-navi/search_theme/life/">住まいを使いやすくしたい</a>
+						<div class="btn_subnav_open"></div>
+					</div>
+					<ul class="sub_nav">
+						<li><a href="https://www.cbl.or.jp/r-navi/search_theme/life/bathroom/">浴室・洗面室を使いやすく・快適に</a></li>
+						<li><a href="https://www.cbl.or.jp/r-navi/search_theme/life/toilet/">トイレを使いやすく・快適に</a></li>
+						<li><a href="https://www.cbl.or.jp/r-navi/search_theme/life/kitchen/">キッチンを便利に使いやすく</a></li>
+						<li><a href="https://www.cbl.or.jp/r-navi/search_theme/life/living/">居室を便利に使いやすく</a></li>
+						<li><a href="https://www.cbl.or.jp/r-navi/search_theme/life/easymove/">住居内を移動しやすく</a></li>
+						<li><a href="https://www.cbl.or.jp/r-navi/search_theme/life/entrance/">住居への出入りをしやすく</a></li>
+						<li><a href="https://www.cbl.or.jp/r-navi/search_theme/life/gate/">敷地への出入りをしやすく</a></li>
+						<li><a href="https://www.cbl.or.jp/r-navi/search_theme/life/monitoring/">住宅をモニタリング・遠隔で操作</a></li>
+					</ul>
+				</li>
+				<li>
+					<div class="col_item_main">
+						<a href="https://www.cbl.or.jp/r-navi/search_theme/kakei/">家計のムダをなくしたい</a>
+						<div class="btn_subnav_open"></div>
+					</div>
+					<ul class="sub_nav">
+						<li><a href="https://www.cbl.or.jp/r-navi/search_part/energy/">水光熱費の負担を少なく</a></li>
+						<li><a href="https://www.cbl.or.jp/r-navi/search_theme/kakei/ijikanri/">維持管理費の負担を少なく</a></li>
+					</ul>
+				</li>
+				<li>
+					<div class="col_item_main">
+						<a href="https://www.cbl.or.jp/r-navi/search_theme/watch/">家族を見守りたい</a>
+						<div class="btn_subnav_open"></div>
+					</div>
+					<ul class="sub_nav">
+						<li><a href="https://www.cbl.or.jp/r-navi/search_theme/watch/separation/">離れて暮らす家族を見守る</a></li>
+						<li><a href="https://www.cbl.or.jp/r-navi/search_theme/watch/cohabitation/">一緒に暮らす家族を見守る</a></li>
+					</ul>
+				</li>
+				<li>
+					<div class="col_item_main">
+						<a href="https://www.cbl.or.jp/r-navi/search_theme/lifestyles/">多様な暮らしを実現したい</a>
+						<div class="btn_subnav_open"></div>
+					</div>
+					<ul class="sub_nav">
+						<li><a href="https://www.cbl.or.jp/r-navi/search_theme/lifestyles/enjoy/">仕事や趣味を楽しむ</a></li>
+						<li><a href="https://www.cbl.or.jp/r-navi/search_theme/lifestyles/pet/">ペットと暮らす</a></li>
+					</ul>
+				</li>
+				<li>
+					<div class="col_item_main">
+						<a href="https://www.cbl.or.jp/r-navi/search_theme/disaster/">防災や防犯に配慮したい</a>
+						<div class="btn_subnav_open"></div>
+					</div>
+					<ul class="sub_nav">
+						<li><a href="https://www.cbl.or.jp/r-navi/search_theme/disaster/earthquake/">地震時の安全性</a></li>
+						<li><a href="https://www.cbl.or.jp/r-navi/search_theme/disaster/fire/">火災時の安全性</a></li>
+						<li><a href="https://www.cbl.or.jp/r-navi/search_theme/disaster/typhoon/">台風時の安全性</a></li>
+						<li><a href="https://www.cbl.or.jp/r-navi/search_theme/disaster/poweroutage/">停電時等の自立性確保</a></li>
+						<li><a href="https://www.cbl.or.jp/r-navi/search_theme/disaster/security/">日常の防犯対策</a></li>
+					</ul>
+				</li>
+			</ul>
+			<div class="search_title">
+				<div class="search_title_inner">部屋、建材・設備からさがす</div>
+			</div>
+			<ul class="main_nav">
+				<li>
+					<div class="col_item_main">
+						<a href="https://www.cbl.or.jp/r-navi/search_part/">部屋、建材・設備からさがす</a>
+						<div class="btn_subnav_open"></div>
+					</div>
+					<ul class="sub_nav">
+						<li><a href="https://www.cbl.or.jp/r-navi/search_part/bathroom/">浴室</a></li>
+						<li><a href="https://www.cbl.or.jp/r-navi/search_part/powderroom/">洗面・脱衣室</a></li>
+						<li><a href="https://www.cbl.or.jp/r-navi/search_part/toilet/">トイレ</a></li>
+						<li><a href="https://www.cbl.or.jp/r-navi/search_part/kitchen/">キッチン</a></li>
+						<li><a href="https://www.cbl.or.jp/r-navi/search_part/living/">リビング・居室</a></li>
+						<li><a href="https://www.cbl.or.jp/r-navi/search_part/window/">窓</a></li>
+						<li><a href="https://www.cbl.or.jp/r-navi/search_part/entrance/">玄関</a></li>
+						<li><a href="https://www.cbl.or.jp/r-navi/search_part/stairs/">廊下・階段</a></li>
+						<li><a href="https://www.cbl.or.jp/r-navi/search_part/energy/">給湯器</a></li>
+					</ul>
+				</li>
+			</ul>
+			<div class="search_title">
+				<div class="search_title_inner">答えてさがす</div>
+			</div>
+			<ul class="main_nav">
+				<li>
+					<div class="col_item_main">
+						<a href="https://www.cbl.or.jp/r-navi/search_check/">答えてさがす</a>
+						<div class="btn_subnav_open"></div>
+					</div>
+					<ul class="sub_nav">
+						<li><a href="https://www.cbl.or.jp/r-navi/search_check/problem/">住まいや暮らしの「困った」に関するチェックリスト</a></li>
+						<li><a href="https://www.cbl.or.jp/r-navi/search_check/want/">「こんな住まい・暮らしにしたい」に関するチェックリスト</a></li>
+					</ul>
+				</li>
+			</ul>
+			<div class="search_title">
+				<div class="search_title_inner">お役立ち情報</div>
+			</div>
+			<ul class="main_nav">
+				<li>
+					<div class="col_item_main">
+						<a href="https://www.cbl.or.jp/r-navi/contents/tips/">お役立ち情報</a>
+						<div class="btn_subnav_open"></div>
+					</div>
+					<ul class="sub_nav">
+						<li><a href="https://www.cbl.or.jp/r-navi/contents/tips/dept/">参加メーカー情報検索（ショールーム検索、SNSなど）</a></li>
+						<li><a href="https://www.cbl.or.jp/r-navi/contents/tips/blparts/">優良住宅部品（BL部品）等</a></li>
+						<li><a href="https://www.cbl.or.jp/r-navi/contents/tips/living_guide">高齢期の健康で快適な暮らしのための住まいの改修ガイドライン</a></li>
+						<li><a href="https://www.cbl.or.jp/r-navi/contents/tips/support/">リフォームに関する補助制度等</a></li>
+						<li><a href="https://www.cbl.or.jp/r-navi/contents/tips/selection/">事業者の選び方</a></li>
+						<li><a href="https://www.cbl.or.jp/r-navi/contents/tips/datas/">機能・製品データベース・リスト ダウンロード</a></li>
+					</ul>
+				</li>
+			</ul>
+			<div class="search_title topic">
+				<div class="search_title_inner">&nbsp;</div>
+			</div>
+			<ul class="main_nav">
+				<li>
+					<div class="col_item_main">
+						<a href="https://www.cbl.or.jp/r-navi/contents/column/">コラム：リフォームを考えはじめた時に読みたい記事</a>
+					</div>
+				</li>
+			</ul>
+			<div class="search_title topic">
+				<div class="search_title_inner">&nbsp;</div>
+			</div>
+			<ul class="main_nav">
+				<li>
+					<div class="col_item_main">
+						<a href="https://www.cbl.or.jp/r-navi/contents/topic/life/">健康で快適、安心・安全に暮らす住まいのポイント</a>
+					</div>
+				</li>
+			</ul>
+			<div class="search_title topic">
+				<div class="search_title_inner">&nbsp;</div>
+			</div>
+			<ul class="main_nav">
+				<li>
+					<div class="col_item_main">
+						<a href="https://www.cbl.or.jp/r-navi/contents/info/">お知らせ</a>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+</nav>
+
+
+<main class="c-main"><div class="c-preview-note">第21〜30回｜クライアントご確認用<span>公開前の確認用原稿です</span></div><nav class="column-breadcrumb" aria-label="パンくず"><a href="index.html">コラム一覧</a><span>›</span><span>第28回</span></nav><div class="c-title"><span class="c-badge">第28回</span><h1>夜の廊下・階段でつまずく前に｜足元灯とスイッチ配置の見直し方</h1><p class="c-description">夜の動線を、歩く前・途中・戻るときに分けて確認。足元灯、人感センサー、スイッチと停電時の備えを整理します。</p><p class="c-small">公開日：未定</p><span class="c-tag">照明・夜の安全</span><div class="c-byline"><img src="images/author-eisuke.webp" alt="著者エイスケ"><span>文｜エイスケ（住宅と教育の専門家）</span></div></div><figure class="c-hero"><img src="uploads/c28-hero.png" alt="足元の照明で床面が見える夜の廊下のイメージ"><figcaption>掲載画像はイメージです。実際の施工例や特定の製品・人物を示すものではありません。</figcaption></figure><div class="column-article-body c-lead"><p>夜、トイレへ行くために寝室を出る。家族を起こさないよう照明をつけず、壁に手を添えて歩いていませんか。昼にはよく見える段差も、暗い中では気づきにくいことがあります。住み慣れていることと、今の明かりで足元が分かることは別です。</p>
+<p>第23回では手すりや段差を中心に考えました。今回は、寝床から目的の場所までの明かりを見直します。照明を明るくするだけでなく、「歩き始める前につけられるか」「必要な間、消えないか」まで確かめましょう。</p></div><aside class="c-points"><h2>この記事のポイント</h2><ul><li>夜の動線を確認し、暗い場所へ歩き出す前に明かりをつけられるようにする。</li><li>足元灯は明るさだけでなく、まぶしさ、影、点灯範囲、消えるタイミングを見る。</li><li>停電時や電池切れへの備えを別に考え、日常用の照明だけに頼らない。</li></ul></aside><nav class="c-toc" aria-label="この記事の目次"><strong>この記事の目次</strong><ol><li><a href="#section-1">昼の点検では、分からないことがある</a></li><li><a href="#section-2">スイッチは、歩く前に届く場所に</a></li><li><a href="#section-3">明るさと同時に、まぶしさと影を見る</a></li><li><a href="#section-4">人感センサーは、点く瞬間と消える瞬間を確認する</a></li><li><a href="#section-5">足元の機器が、新しい障害物にならないように</a></li><li><a href="#section-6">日常の明かりと、停電時の備えを分ける</a></li></ol></nav><article class="column-article-body"><section id="section-1"><h2>1. 昼の点検では、分からないことがある</h2><p>消費者庁は、転倒予防として、段差や滑りやすい床などを明るく照らすことを挙げています。<a class="c-ref" href="#source-1" aria-label="出典1">[1]</a> 家の安全を考える際は、床そのものだけでなく、それが見える環境も確認したい点です。</p>
+<p>寝室から廊下、曲がり角、トイレの入口。普段使う経路に、照明が届かない区間はないでしょうか。扉を開けたときに影ができる、家具の陰に足元灯が隠れるといったこともあります。</p>
+<p>確認のために暗闇を歩く必要はありません。照明をつけた安全な状態で配置を見て、夜は家族などと無理のない範囲で確かめます。視力の変化やめまいなどの不安がある場合は、照明だけで解決しようとせず医療機関へ相談してください。</p></section><section id="section-2"><h2>2. スイッチは、歩く前に届く場所に</h2><p>廊下のスイッチが遠いと、そこへ行くまでが暗くなります。寝床から手が届く操作、部屋の出入口での操作、目的地側からの操作を分けて考えます。リモコンを使う場合も、夜中に探さず取れる置き場所を決めましょう。</p>
+<p>階段では、上り始めと下り始めの両方で点灯できるかを確認します。階段の途中で暗くならないこと、最後の段や踊り場が見えることも大切です。スイッチを増設する場合は、配線や設置位置を電気工事の専門業者に相談します。</p>
+<p>本人が操作しやすいことも重要です。小さな文字や複雑なボタンの組み合わせより、普段の使い方が分かるかを実際に確かめます。便利な機能が増えても、家族が操作できなければ困りごとは残ります。</p>
+<figure class="c-diagram"><figcaption>夜の動線を三つに分ける</figcaption><ol><li><strong>出発する前</strong><span>寝床や出入口から点灯できる</span></li><li><strong>歩いている間</strong><span>曲がり角・段差・目的地まで明かりが届く</span></li><li><strong>戻って休むとき</strong><span>必要な明かりを残し、安全な場所から消せる</span></li></ol></figure>
+<p>図は照明計画を相談するための例です。必要な明るさや設置高さは、本人と建物・製品の条件に合わせます。</p></section><section id="section-3"><h2>3. 明るさと同時に、まぶしさと影を見る</h2><p>光源が直接目に入るとまぶしい、足元を照らすつもりが壁だけ明るい、床の模様で段差が分かりにくい。照明の使い勝手は、明るい・暗いの一言では表せません。</p>
+<p>取り付け位置や向き、光の広がりを確かめ、歩く人の目線と足元の両方で見ます。特に階段は、一段ごとの境目や最上段・最下段が分かるかを確認したい場所です。足元灯一つですべてを照らそうとせず、既存の照明と組み合わせて検討します。</p>
+<p>色温度や照度の数値だけで、誰にでも快適な設定を決めることはできません。見え方や好みには個人差があります。ショールームなどで操作感を確かめ、設置後にも本人の感じ方を聞きましょう。</p></section><section id="section-4"><h2>4. 人感センサーは、点く瞬間と消える瞬間を確認する</h2><p>自動点灯は、スイッチを探す動作を減らす助けになります。一方で、センサーの向きや検知範囲によっては、暗い区間へ入ってから点くことがあります。扉や家具で検知しにくくならないかも確認します。</p>
+<p>ゆっくり歩く人や、途中で立ち止まる人にとっては、消灯までの時間が短すぎないかが重要です。センサーに反応するために大きく体を動かす使い方になっていないか、手動で点け続けられるかを見ます。</p>
+<p>設置後は、寝室から出るときだけでなく、戻る方向でも確認します。ペットや家族の動きで意図せず点く場合なども含め、説明書の範囲で調整しましょう。自動化したから確認不要になるわけではありません。</p></section><section id="section-5"><h2>5. 足元の機器が、新しい障害物にならないように</h2><p>コンセント式の足元灯を使う場合は、本体が通路へ突き出さないか、扉に当たらないかを見ます。延長コードを床に横切らせると、明かりのために別のつまずき要因をつくってしまいます。</p>
+<p>電池式なら交換時期と交換担当、充電式なら充電方法を決めておきます。落ちやすい場所へ仮置きせず、製品の設置方法を守ってください。水のかかる場所での使用可否も確認します。</p>
+<p>マンションの共用廊下や共用階段は、自分だけで機器を取り付ける場所ではありません。暗さが気になるときは管理組合などに相談します。住戸内の配線や工事でも、必要な申請を事前に確認しましょう。</p></section><section id="section-6"><h2>6. 日常の明かりと、停電時の備えを分ける</h2><p>普段使う照明が、停電時にも点くとは限りません。自動点灯式でも電源が失われれば使えない場合があります。停電対応の有無、持続時間、充電や電池の状態を製品ごとに確認します。</p>
+<p>寝床の近くなど、暗い中でも取り出せる場所に、用途に合うライトを備える方法があります。置き場所は家族で共有し、点くかどうかを時々確認しましょう。災害時は足元以外の危険もあるため、無理に移動しない判断も必要です。</p>
+<p>夜の照明を見直す目的は、家中をずっと明るくしておくことではありません。必要な人が、必要な場所を、無理なく確かめられることです。最初の一歩を踏み出す前の明かりから整えましょう。</p></section></article><section class="c-faq"><h2>よくある質問</h2><details><summary>明るい電球に替えれば十分ですか？<span aria-hidden="true">＋</span></summary><p>位置や影、まぶしさも関係します。歩く前に点灯でき、動線全体が見えるかを確認します。</p></details><details><summary>足元灯だけで階段を照らせますか？<span aria-hidden="true">＋</span></summary><p>一律には言えません。各段の境目まで見えるかを確かめ、既存照明と合わせて専門家に相談します。</p></details><details><summary>人感センサーはどこに置けばよいですか？<span aria-hidden="true">＋</span></summary><p>暗い区間へ入る前に検知できるか、家具や扉で遮られないかを確認します。製品ごとの指定に従ってください。</p></details><details><summary>途中で消えてしまう場合は？<span aria-hidden="true">＋</span></summary><p>説明書に従って時間や範囲を調整します。無理に動いて点灯させず、手動操作や別の照明も検討します。</p></details><details><summary>スイッチの増設は自分でできますか？<span aria-hidden="true">＋</span></summary><p>配線工事が必要な場合は、電気工事の専門業者へ相談してください。使う人の動きも伝えます。</p></details><details><summary>停電用ライトと兼用できますか？<span aria-hidden="true">＋</span></summary><p>停電対応のある製品か、どの程度使えるかを確認します。日常点くことだけでは停電時の動作は判断できません。</p></details></section><section class="c-family column-article-body"><h2>家族と話し合おう</h2><ol><li>夜、明かりをつけるために暗い場所を歩いていませんか。</li><li>家族によって、まぶしい・暗いと感じる場所は違いますか。</li><li>停電時のライトの場所と、電池・充電の確認担当は決まっていますか。</li></ol></section><aside class="c-summary"><h2>この記事のまとめ</h2><p>夜の安全は、照明の明るさだけでは決まりません。歩く前に点けられ、必要な間は消えず、帰る道も見えることを確認します。足元灯やセンサーの位置と操作を本人に合わせ、停電時の備えも別に整えましょう。毎日使う一つの経路から見直してみてください。</p></aside><details class="c-sources"><summary>出典・参考資料を見る</summary><ol><li id="source-1"><a href="https://www.caa.go.jp/policies/policy/consumer_safety/caution/caution_055/" target="_blank" rel="noopener noreferrer">消費者庁『高齢者の事故を防ぐために』</a></li></ol><p>資料確認日：2026年9月11日。一般的な整理・提案と、出典に基づく説明を区別して記載しています。</p></details><p class="c-small">見え方や必要な明るさには個人差があります。危険な歩行試験は避け、配線工事は専門業者へ、体の不調は医療機関へ相談してください。</p><section class="c-links"><h2>関連する住まいの機能・設備を探す</h2><a href="https://www.cbl.or.jp/r-navi/search_theme/life/easymove/" target="_blank" rel="noopener noreferrer">住居内を移動しやすく ↗</a></section><section class="c-links" data-related-articles><h2>関連記事</h2><a href="column-30.dc.html">【第30回】スマートホームが使いにくい・不安｜見守り・停電・プライバシーで選ぶ自動化</a><a href="column-23.dc.html">【第23回】家の中で転ばないために｜60歳から見直す手すり・段差・動線</a><a href="https://eisuke-orion.github.io/100-year-renovation-navi-preview-b/legacy/column-18.dc.html" target="_blank" rel="noopener noreferrer">【第18回】地震直後、6避難所の調査で多かった困りごとはトイレ</a></section>  <div style="display:flex;align-items:center;gap:16px;background:#fff;border:1px solid oklch(0.89 0.02 85);border-radius:16px;padding:22px;margin-bottom:36px;">
+    <img  src="images/author-eisuke.webp" alt="著者エイスケ" style="width:56px;height:56px;flex:none;display:block;object-fit:cover;border-radius:50%">
+    <div><p style="font-family:'Zen Maru Gothic',sans-serif;font-weight:700;font-size:14.5px;margin:0 0 6px;">この記事を書いた人｜エイスケ</p><p style="font-size:13px;line-height:1.75;color:oklch(0.48 0.015 90);margin:0;">1986年生まれ。実家の工務店・不動産に10年間従事したのち、教育の世界へ。住宅と教育、両方の視点から「豊かな暮らし」をテーマに執筆します。※本コラムは筆者個人の見解・経験に基づくものです。最終的な判断は各分野の専門家にご相談ください。</p></div>
+  </div>
+
+<nav class="column-pagination c-pagination" aria-label="コラム前後ナビゲーション"><a href="column-27.dc.html">← 前の回</a><a href="index.html">目次に戻る</a><a href="column-29.dc.html">次の回 →</a></nav></main><section class="check_history"></section>
+<div class="btn_totop"></div>
+<footer>
+		<div class="box_btn"><a href="https://www.cbl.or.jp/r-navi/contents/aboutus/howto/">本サイトの便利な使い方</a></div>
+		<div class="footer_menu">
+			<div class="col_menu">
+				<div class="menu_title"><a href="https://www.cbl.or.jp/r-navi/search_theme/">テーマからさがす</a></div>
+				<ul>
+					<li><a href="https://www.cbl.or.jp/r-navi/search_theme/kind/">身体にやさしく暮らしたい</a></li>
+					<li><a href="https://www.cbl.or.jp/r-navi/search_theme/clean/">住まいも身体も清潔でいたい</a></li>
+					<li><a href="https://www.cbl.or.jp/r-navi/search_theme/kajiraku/">家事をラクにこなしたい</a></li>
+					<li><a href="https://www.cbl.or.jp/r-navi/search_theme/life/">住まいを使いやすくしたい</a></li>
+					<li><a href="https://www.cbl.or.jp/r-navi/search_theme/kakei/">家計のムダをなくしたい</a></li>
+					<li><a href="https://www.cbl.or.jp/r-navi/search_theme/watch/">家族を見守りたい</a></li>
+					<li><a href="https://www.cbl.or.jp/r-navi/search_theme/lifestyles/">多様な暮らしを実現したい</a></li>
+					<li><a href="https://www.cbl.or.jp/r-navi/search_theme/disaster/">防災や防犯に配慮したい</a></li>
+				</ul>
+			</div>
+			<div class="col_menu">
+				<div class="menu_title"><a href="https://www.cbl.or.jp/r-navi/search_part/">部屋、建材・設備からさがす</a></div>
+				<ul>
+					<li><a href="https://www.cbl.or.jp/r-navi/search_part/bathroom/">浴室</a></li>
+					<li><a href="https://www.cbl.or.jp/r-navi/search_part/powderroom/">洗面・脱衣室</a></li>
+					<li><a href="https://www.cbl.or.jp/r-navi/search_part/toilet/">トイレ</a></li>
+					<li><a href="https://www.cbl.or.jp/r-navi/search_part/kitchen/">キッチン</a></li>
+					<li><a href="https://www.cbl.or.jp/r-navi/search_part/living/">リビング・居室</a></li>
+					<li><a href="https://www.cbl.or.jp/r-navi/search_part/window/">窓</a></li>
+					<li><a href="https://www.cbl.or.jp/r-navi/search_part/entrance/">玄関</a></li>
+					<li><a href="https://www.cbl.or.jp/r-navi/search_part/stairs/">廊下・階段</a></li>
+					<li><a href="https://www.cbl.or.jp/r-navi/search_part/energy/">給湯器</a></li>
+				</ul>
+			</div>
+			<div class="col_menu">
+				<div class="menu_title"><a href="https://www.cbl.or.jp/r-navi/search_check/">答えてさがす</a></div>
+				<ul>
+					<li><a href="https://www.cbl.or.jp/r-navi/search_check/problem/">住まいや暮らしの「困った」に関するチェックリスト</a></li>
+					<li><a href="https://www.cbl.or.jp/r-navi/search_check/want/">「こんな住まい・暮らしにしたい」に関するチェックリスト</a></li>
+				</ul>
+			</div>
+			<div class="col_menu">
+				<div class="menu_title"><a href="https://www.cbl.or.jp/r-navi/contents/tips/">お役立ち情報</a></div>
+				<ul>
+					<li>
+						<a href="https://www.cbl.or.jp/r-navi/contents/tips/dept/">参加メーカー情報検索（ショールーム検索、SNSなど）</a>
+					</li>
+					<li>
+						<a href="https://www.cbl.or.jp/r-navi/contents/tips/blparts/">優良住宅部品（BL部品）等</a>
+					</li>
+					<li>
+						<a href="https://www.cbl.or.jp/r-navi/contents/tips/living_guide">高齢期の健康で快適な暮らしのための住まいの改修ガイドライン</a>
+					</li>
+					<li>
+						<a href="https://www.cbl.or.jp/r-navi/contents/tips/selection">事業者の選び方</a>
+					</li>
+					<li>
+						<a href="https://www.cbl.or.jp/r-navi/contents/tips/support">リフォームに<br>関する補助制度等</a>
+					</li>
+					<li>
+						<a href="https://www.cbl.or.jp/r-navi/contents/tips/datas/">機能・製品リストダウンロード</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="footer_menu">
+			<div class="col_menu">
+				<div class="menu_title"><a href="https://www.cbl.or.jp/r-navi/contents/column/">コラム：<br class="only_sp">リフォームを考えはじめた時に読みたい記事</a></div>
+			</div>
+		</div>
+		<div class="footer_menu">
+			<div class="col_menu">
+				<div class="menu_title"><a href="https://www.cbl.or.jp/r-navi/contents/topic/life/">健康で快適、安心・安全に暮らす<br class="only_sp">住まいのポイント</a></div>
+			</div>
+		</div>
+		<div class="footer_menu">
+			<div class="col_menu">
+				<div class="menu_title">本サイトについて</div>
+				<ul>
+					<li><a href="https://www.cbl.or.jp/r-navi/contents/info/">お知らせ</a></li>
+					<li><a href="https://www.cbl.or.jp/r-navi/contents/aboutus/policy/">サイトポリシー</a></li>
+					<li><a href="https://www.cbl.or.jp/r-navi/contents/aboutus/studygp/">人生100年対応住宅部品研究会</a></li>
+					<li><a href="https://www.cbl.or.jp/r-navi/contents/aboutus/ask/">お問い合わせ先</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="wrap_sns">
+			<ul>
+				<li><a href="https://www.instagram.com/r.navi.100/" target="_blank"><img src="../img/Instagram_Glyph_White.svg" alt=""></a></li>
+			</ul>
+		</div>
+		<div class="box_logo_bl"><a href="https://www.cbl.or.jp/" target="_blank"><img src="../img/logo_bl.svg" alt=""></a></div>
+</footer>
+
+
+</body>
+</html>
